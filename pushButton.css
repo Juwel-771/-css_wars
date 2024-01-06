@@ -1,0 +1,35 @@
+.box1{
+    width: 500px;
+    height: 350px;
+    background-color: #6592CF;
+    position: relative;
+}
+.line-box{
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 50px;
+}
+.line1{
+    width: 60px;
+    height: 200px;
+    background-color: #243D83;
+    z-index: 0;
+}
+
+.line2{
+    width: 60px;
+    height: 200px;
+    background-color: #243D83;
+    position: absolute;
+    left: 300px;
+    z-index: 0;
+}
+
+.circle1{
+    width: 300px;
+    height: 300px;
+    background-color: #6592CF;
+    border-radius: 50%;
+    z-index: 1;
+}
