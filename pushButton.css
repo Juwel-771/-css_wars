@@ -1,38 +1,30 @@
-.box1{
-    width: 500px;
-    height: 350px;
+.container{
+    width: 450px;
+    height: 300px;
     background-color: #6592CF;
     position: relative;
 }
+
 .line-box{
-    display: flex;
-    position: absolute;
-    left: 60px;
-    top: 65px;
-}
-.line1{
-    width: 60px;
-    height: 200px;
-    background-color: #243D83;
-    z-index: 0;
-}
-
-.line2{
-    width: 60px;
-    height: 200px;
+    width: 350px;
+    height: 150px;
     background-color: #243D83;
     position: absolute;
-    left: 300px;
-    z-index: 0;
+    left: 50px;
+    top: 68px;
 }
 
-.circle1{
-    width: 310px;
-    height: 310px;
-    background-color: #6592CF;
+.circle-one{
+    width: 280px;
+    height: 280px;
+    background-color:#6592CF;
+    position: absolute;
+    left: 35px;
+    top: -60px;
     border-radius: 50%;
-    position: absolute;
-    left: 25px;
-    top: -55px;
-    z-index: 1;
+    display: flex;
+}
+
+.sub-circle{
+    
 }
