@@ -11,11 +11,28 @@
     justify-content: center;
     align-items: center;
 }
-
-.spaceshipe-body{
-    width: 70px;
-    height: 200px;
+.spaceship-upper-body{
+    width: 75px;
+    height: 100px;
     background-color: #F9F6EE;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.front-view{
+    width: 50px;
+    height: 50px;
+    background-color: deepskyblue;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.spaceshipe-body{
+    width: 95px;
+    height: 100px;
+    background-color: #F9F6EE;
+    border: 2px solid red;
 }
