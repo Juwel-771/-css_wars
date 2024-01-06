@@ -8,7 +8,7 @@
     display: flex;
     position: absolute;
     left: 60px;
-    top: 50px;
+    top: 65px;
 }
 .line1{
     width: 60px;
@@ -27,9 +27,12 @@
 }
 
 .circle1{
-    width: 300px;
-    height: 300px;
+    width: 310px;
+    height: 310px;
     background-color: #6592CF;
     border-radius: 50%;
+    position: absolute;
+    left: 25px;
+    top: -55px;
     z-index: 1;
 }
